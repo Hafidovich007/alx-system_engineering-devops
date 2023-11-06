@@ -1,43 +1,14 @@
-0x08. Networking basics #1
-Resources📚
+# Networking basics 1
+Project done during **Full Stack Software Engineering studies** at **Alx School**. It aims to learn about what is localhost/127.0.0.1, what is 0.0.0.0, what is `/etc/hosts` and how to display the machine's active network interfaces.
 
-Read or watch:
+## Technologies
+* Scripts written in Bash 4.3.11(1)
+* Tested on Ubuntu 14.04 LTS
 
-    What is localhost
-    What is 0.0.0.0
-    What is the hosts file
-    Netcat examples
+## Files
 
-Learning Objectives💡
-
-What you should learn from this project:
-
-    What is localhost/127.0.0.1
-    What is 0.0.0.0
-    What is /etc/hosts
-    How to display your machine’s active network interfaces
-
-0. Localhost
-
-    What is localhost?
-
-1. All IPs
-
-    What is 0.0.0.0?
-
-2. Change your home IP
-
-    Write a Bash script that configures an Ubuntu server with the below requirements.
-
-3. Show attached IPs
-
-    Write a Bash script that displays all active IPv4 IPs on the machine it’s executed on.
-
-4. Port listening on localhost
-
-    Write a Bash script that listens on port 98 on localhost.
-
-Author
-
-    Arturo Victoria Rincon - arvicrin
-
+| Filename | Description |
+| -------- | ----------- |
+| `0-change_your_home_IP` | Bash script that configures an Ubuntu server |
+| `1-show_attached_IPs` | Bash script that displays all active IPv4 IPs on the machine |
+| `100-port_listening_on_localhost` | Bash script that listens on port 98 on localhost |
